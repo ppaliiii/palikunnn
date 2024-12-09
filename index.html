@@ -18,6 +18,7 @@
             background-size: cover;
         }
 
+        /* Header Styling with Neon Effect */
         header {
             position: relative;
             background-color: rgba(58, 0, 77, 0.9); /* Dark purple background */
@@ -31,11 +32,23 @@
             text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 20px #ff8c00, 0 0 30px #ff8c00;
         }
 
+        /* GIF Styling */
+        .gif-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .gif-container img {
+            width: 100px;
+            height: auto;
+        }
+
+        /* Navigation Styling */
         nav {
             display: flex;
             justify-content: center;
             padding: 15px;
-            background-color: rgba(89, 0, 119, 0.9);
+            background-color: rgba(89, 0, 119, 0.9); /* Slightly lighter purple */
         }
         nav a {
             color: #fff;
@@ -51,6 +64,7 @@
             background-color: rgba(120, 0, 170, 0.9);
         }
 
+        /* Home Section */
         #home {
             text-align: center;
             padding: 50px 20px;
@@ -70,23 +84,16 @@
             line-height: 1.8;
         }
         #home img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
+            width: 200px; /* Set both width */
+            height: 200px; /* and height to be equal */
+            border-radius: 50%; /* Perfectly round */
             margin-top: 20px;
-            border: 4px solid #ffd700;
+            border: 4px solid #ffd700; /* Gold border */
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
-            object-fit: cover;
+            object-fit: cover; /* Ensures the image is properly scaled */
         }
 
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: rgba(89, 0, 119, 0.9);
-            color: #fff;
-            font-size: 0.9em;
-        }
-
+        /* Audio Control Styling */
         .audio-control {
             margin: 20px auto;
             text-align: center;
@@ -105,13 +112,25 @@
         .audio-control button:hover {
             background-color: rgba(120, 0, 170, 0.9);
         }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(89, 0, 119, 0.9);
+            color: #fff;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
 
-<!-- Header -->
 <header>
     THE MAN, THE MYTH, THE LEGEND
+    <!-- GIF Container -->
+    <div class="gif-container">
+        <img src="your-gif.webp" alt="Cool Animation">
+    </div>
 </header>
 
 <!-- Navigation -->
